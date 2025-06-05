@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import IssueCard from '../components/IssueCard';
 import ScoreCard from '../components/ScoreCard';
@@ -174,26 +173,6 @@ const Index = () => {
         </div>
       </div>
 
-      <style jsx>{`
-        .custom-scrollbar {
-          scrollbar-width: thin;
-          scrollbar-color: #06b6d4 #1f2937;
-        }
-        .custom-scrollbar::-webkit-scrollbar {
-          width: 6px;
-        }
-        .custom-scrollbar::-webkit-scrollbar-track {
-          background: #1f2937;
-          border-radius: 3px;
-        }
-        .custom-scrollbar::-webkit-scrollbar-thumb {
-          background: #06b6d4;
-          border-radius: 3px;
-        }
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-          background: #0891b2;
-        }
-      `}</style>
     </div>
   );
 };
