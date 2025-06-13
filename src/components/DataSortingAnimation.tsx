@@ -188,9 +188,9 @@ const DataSortingAnimation = () => {
         {/* Category Columns */}
         <div className="grid grid-cols-3 gap-8 mt-16">
           {[
-            { key: 'critical', label: 'Critical Issues', emoji: '🔴' },
-            { key: 'moderate', label: 'Moderate Issues', emoji: '🟠' },
-            { key: 'okay', label: 'Low Priority', emoji: '🔵' }
+            { key: 'critical', label: 'High Impact', emoji: '🔴' },
+            { key: 'moderate', label: 'Moderate Impact', emoji: '🟠' },
+            { key: 'okay', label: 'Low Impact', emoji: '🔵' }
           ].map((category) => {
             const config = getCategoryConfig(category.key);
             const count = processedCounts[category.key as keyof typeof processedCounts];
